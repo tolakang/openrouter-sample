@@ -7,9 +7,11 @@
     "start": "node openrouter-client.js",
     "start:axios": "node openrouter-axios.js",
     "start:cli": "node openrouter-cli.js",
+    "serve:openrouter": "node openrouter-server.js",
     "start:ts": "ts-node openrouter-client.ts",
     "start:axios:ts": "ts-node openrouter-axios.ts",
     "start:cli:ts": "ts-node openrouter-cli.ts",
+    "serve:openrouter:ts": "ts-node openrouter-server.ts",
     "build:ts": "tsc"
   },
   "dependencies": {

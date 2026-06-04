@@ -33,6 +33,34 @@ Or interactively:
 npm run start:cli
 ```
 
+## Local OpenRouter HTTP API
+
+You can run a local API server that accepts POST requests at `/chat`.
+
+```bash
+npm run serve:openrouter
+```
+
+Or the TypeScript version:
+
+```bash
+npm run serve:openrouter:ts
+```
+
+Then send a request like:
+
+```bash
+curl -X POST http://localhost:3000/chat \
+  -H "Content-Type: application/json" \
+  -d '{"message":"Hello from the local OpenRouter API"}'
+```
+
+The server also exposes a health endpoint:
+
+```bash
+curl http://localhost:3000/health
+```
+
 ## TypeScript support
 
 You can also run the TypeScript versions directly with `ts-node`:
