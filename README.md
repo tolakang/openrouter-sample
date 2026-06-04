@@ -1,5 +1,7 @@
 # OpenRouter Sample Integration
 
+[![CI](https://github.com/tolakang/openrouter-sample/actions/workflows/ci.yml/badge.svg)](https://github.com/tolakang/openrouter-sample/actions/workflows/ci.yml)
+
 This workspace contains a minimal Node.js example for calling the OpenRouter API.
 
 ## Setup
