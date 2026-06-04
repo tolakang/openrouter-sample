@@ -61,6 +61,16 @@ The server also exposes a health endpoint:
 curl http://localhost:3000/health
 ```
 
+## Testing
+
+A smoke test verifies the local OpenRouter API server starts and responds to `/health`.
+
+```bash
+npm test
+```
+
+The CI workflow runs this test with a dummy API key.
+
 ## TypeScript support
 
 You can also run the TypeScript versions directly with `ts-node`:

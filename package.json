@@ -12,6 +12,7 @@
     "start:axios:ts": "ts-node openrouter-axios.ts",
     "start:cli:ts": "ts-node openrouter-cli.ts",
     "serve:openrouter:ts": "ts-node openrouter-server.ts",
+    "test": "node --test test/openrouter-server.test.js",
     "build:ts": "tsc"
   },
   "dependencies": {
